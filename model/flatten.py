@@ -16,7 +16,7 @@ def process_image(image):
 
     # Flatten the image out
     data = np.asarray(image)
-    data = data.reshape(1024 ** 2)
+    # data = data.reshape(1024 ** 2)
 
     return (data, loc)
 
